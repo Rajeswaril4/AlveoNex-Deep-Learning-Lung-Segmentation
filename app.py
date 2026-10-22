@@ -175,7 +175,7 @@ def to_png_bytes(img):
 # ---------------- app ----------------
 def main():
     st.set_page_config(page_title="Lung Segmentation", layout="wide")
-    st.title("")
+    st.title("AlveoNex: Automated Lung Field Segmentation from Chest X-rays Using Deep Learning")
     st.caption("For learning and research only. Not for medical diagnosis.")
 
     model, data = load_model()
