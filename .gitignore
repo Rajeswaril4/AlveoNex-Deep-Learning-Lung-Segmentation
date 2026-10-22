@@ -1,0 +1,78 @@
+
+# ==========================================
+# AlveoNex - Git Ignore Configuration
+# ==========================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+credentials.json
+
+# Dataset files
+Data_Set/
+dataset/
+datasets/
+data/
+*.zip
+*.rar
+*.7z
+
+# Trained models and checkpoints
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+checkpoints/
+saved_models/
+
+# Training logs
+logs/
+runs/
+tensorboard/
+events.out.tfevents.*
+
+# Generated predictions and outputs
+predictions/
+outputs/
+results/
+generated_masks/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
